@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        //  CONDITIONAL STATEMENT
+
+        let age = 25;
+
+        if (age >= 18) {
+            console.log("you can vote");
+        }
+
+
+        let _age = 6;
+
+        if (_age < 18) {
+            console.log("you cannot vote");
+        }
+
+
+
+
+        let mode = "light";
+        let color;
+
+        if (mode === "dark") {
+            color = "black";
+        }
+
+        if (mode === "light") {
+            color = "white";
+        }
+        console.log(color); // white
+
+
+
+
+        //if-else
+
+        let num = 9;
+
+        if (num % 2 === 0) {
+            console.log("even");
+        }
+        else {
+            console.log("odd");
+        }
+
+
+        //if-else-if
+
+        let __age = 78;
+
+        if (__age < 18) {
+            console.log("junior")
+        } else if (__age > 60) {
+            console.log("senior")
+        } else {
+            console.log("middle"); //senior
+        }
+
+
+        //ALERT - a pop up msg display on the site
+        alert("hello!");
+
+        //PROMPT - a pop up with additional function that can take any input
+        let name = prompt("hola!");
+        console.log(name);
+
+
+        //QUESTION-1  Get user to input a number using prompt("Enter a number:"). Check if the number is a multiple of 5 or not.
+
+        let _num = prompt("Enter a number:");
+
+        if (_num % 5 === 0) {
+            console.log("is a multiple of 5")
+        } else {
+            console.log("not a muliple of 5");
+        }
+
+
+
+        //QUESTION-2  Write a code which can give grades to students according to their scores:80-100
+        // 90-100, A
+        // 70-89,B
+        // 60-69, C
+        // 50-59,D
+        // 0-49,F
+
+
+        let score = 88;
+        let grade;
+
+        if (score >= 90 && score <= 100) {
+            grade = "A";
+        } else if
+            (score >= 70 && score <= 89) {
+            grade = "B";
+        } else if (score >= 60 && score <= 69) {
+            cgrade = "C";
+        } else if (score >= 50 && score <= 59) {
+            grade = "D";
+        } else {
+            grade = "F";
+        }
+        console.log(grade);
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
