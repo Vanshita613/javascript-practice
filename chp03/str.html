@@ -31,7 +31,9 @@
     console.log(output);
 
 
-   // UPPER CASE
+    //STRING METHODS
+
+    // UPPER CASE
 
     let str3 = "chemistry";
     let newStr = str3.toUpperCase();
@@ -50,7 +52,61 @@
 
     let str5 = "       computer javascript     ";
     console.log(str5.trim());
-     
+
+
+    //STRING SLICE
+
+    let str6 = "0123456";
+    console.log(str6.slice(1, 3));
+
+    let str7 = "hello";
+    console.log(str7.slice(0, 4));
+
+
+    //STRING CONCAT
+
+    let strA = "my";
+    let strB = "computer";
+
+    let res = strA.concat(strB);
+    console.log(res);
+
+
+    //STRING REPLACE
+
+    let strC = " hello";
+    console.log(strC.replace("h", "y"));
+
+
+
+    //QUESTION-1. Prompt the user to enter their full name. Generate a username for them based on the input Start username with @, followed by their full name and ending with the fullname length.
+
+    let fullName = prompt("enter the full name");
+
+    let userName = "@" + fullName + fullName.length;
+
+    console.log(userName);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
