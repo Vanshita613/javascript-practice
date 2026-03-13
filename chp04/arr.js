@@ -64,10 +64,19 @@ console.log(items);
 
 //push - add to end
 
-let foodItems = ["potato", "apple", "litchi", "tomato"];
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
 
-foodItems.push("chips", "burger", "paneer");
+// foodItems.push("chips", "burger", "paneer");
+
+// console.log(foodItems);
+
+
+//pop - delete from the end
+let foodItems = ["potato", "apple", "litchi", "tomato"];
 
 console.log(foodItems);
 
+foodItems.pop();
+
+console.log(foodItems);
 
