@@ -71,12 +71,20 @@ console.log(items);
 // console.log(foodItems);
 
 
-//pop - delete from the end
+//pop - delete from the end an return
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
+
+// console.log(foodItems);
+
+// foodItems.pop();
+
+// console.log(foodItems);
+
+
+//toString - converts arrays to string
 let foodItems = ["potato", "apple", "litchi", "tomato"];
 
 console.log(foodItems);
 
-foodItems.pop();
-
-console.log(foodItems);
+console.log(foodItems.toString());
 
