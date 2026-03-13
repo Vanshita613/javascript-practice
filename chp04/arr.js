@@ -58,3 +58,13 @@ for (let i = 0; i < items.length; i++) {
 }
 console.log(items);
 
+
+
+//ARRAY METHODS
+
+//push - add to end
+let foodItems = ["potato", "apple", "litchi", "tomato"];
+
+foodItems.push("chips", "burger", "paneer");
+
+console.log(foodItems);
