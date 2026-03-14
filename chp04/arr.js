@@ -124,3 +124,19 @@ let arr = [1, 2, 3, 4, 5, 5, 6, 7];
 
 //REPLACE ELEMENT 
 arr.splice(3, 1, 101);
+
+
+
+//QUESION - 1 CREATE AN ARRAY TO STORE COMPANIES -> "BLOOMBERG","MICROSOFT" , "UBER", "GOOGLE", "IBM", "NETFLIX"
+//a. Remove the first company from the array
+//b. Remove Uber &Add Ola in its place
+//c. Add Amazon at the end
+
+
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+// companies.shift();
+
+//companies.splice(2, 1, "Ola");
+
+companies.push("Amazon");
