@@ -81,10 +81,18 @@ console.log(items);
 // console.log(foodItems);
 
 
-//toString - converts arrays to string
-let foodItems = ["potato", "apple", "litchi", "tomato"];
+// //toString - converts arrays to string
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
 
-console.log(foodItems);
+// console.log(foodItems);
 
-console.log(foodItems.toString());
+// console.log(foodItems.toString());
 
+
+
+//CONCAT - JOINS MULTIPLE ARRAYS AND RETURN RESULT
+let marvelHeroes = ["thor", "ironman", "spiderman"];
+let dcHeroes = ["superman", "batman"];
+
+let heroes = marvelHeroes.concat(dcHeroes);
+console.log(heroes);
