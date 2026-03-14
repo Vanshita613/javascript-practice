@@ -102,3 +102,11 @@ console.log(heroes);
 let countries = ["china", "korea", "japan"];
 
 countries.unshift("thailand");
+
+
+//slice - return a piece of the array  
+let movies = ["alive", "parasite", "myname", "bloodhounds"];
+
+console.log(movies);
+
+console.log(movies.slice(1, 3));
