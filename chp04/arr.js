@@ -96,3 +96,9 @@ let dcHeroes = ["superman", "batman"];
 
 let heroes = marvelHeroes.concat(dcHeroes);
 console.log(heroes);
+
+
+//unshift - add to start
+let countries = ["china", "korea", "japan"];
+
+countries.unshift("thailand");
