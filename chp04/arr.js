@@ -110,3 +110,17 @@ let movies = ["alive", "parasite", "myname", "bloodhounds"];
 console.log(movies);
 
 console.log(movies.slice(1, 3));
+
+//splice - change original array (add,remove,replace)
+let arr = [1, 2, 3, 4, 5, 5, 6, 7];
+
+//arr.splice(2,2,101,102);
+
+//ADD ELEMENT
+//arr.splice(2,0,101);
+
+//DELETE ELEMENT
+//arr.splice(3, 1);
+
+//REPLACE ELEMENT 
+arr.splice(3, 1, 101);
