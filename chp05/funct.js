@@ -31,5 +31,7 @@ const arrowMul = (x, y) => {
     console.log(x * y);
 }
 
-
+const printHello = () => {
+    console, log("hello");
+}
 
