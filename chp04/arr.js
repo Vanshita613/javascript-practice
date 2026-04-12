@@ -22,7 +22,6 @@ for (let name of names) {
 }
 
 
-
 //QUESTION-1. Qs. For a given array with marks of students -> [85, 97, 44, 37, 76, 60] Find the average marks of the entire class.
 
 let marks = [78, 94, 88, 93, 76, 65];
