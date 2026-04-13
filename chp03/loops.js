@@ -6,6 +6,7 @@ for (let count = 1; count <= 5; count++) {
 }
 
 
+
 // CALCULATE SUM OF 1 TO 5
 let sum = 0;
 for (let i = 1; i <= 5; i++) {
